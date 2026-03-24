@@ -1,0 +1,1843 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$J2rXWjVcvgiaFIo7heiRO3$x/vez1lNqyAXqGDf+j8NuEMHmPsFOKeWYVnYsMyzUmE=",
+        "last_login": "2026-03-23T10:29:02.168Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-03-23T10:28:20.978Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "432lu2aib0f8s733gxdjo46mnz8vyefc",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAUBf-FtSGFQgGX7v0Gch9cWzU0Ke3K-O_apAvdnpk5L5VhW8e8tbLkidVZGXX63RDoUeoO-A71Nmua67pMqHdFH7Tp68zleTncv4MR2viti3eBogiHxK4kks4woRfsBsBkvUgYqA_s0SQJ1gqB7wFLciFGHJx6fwAU8Dji:1w4cWs:HCjakj63UR9j6URFctXMyHhglTMKoCLoIvRMKIgRBWU",
+        "expire_date": "2026-04-06T10:29:02.174Z"
+    }
+},
+{
+    "model": "menu.category",
+    "pk": 1,
+    "fields": {
+        "name": "BURGER CENTRAL",
+        "slug": "burger-central",
+        "image": "brand_images/Meet_the_Munchies_Brands.All_your_favourite_flavours_one_platform._2.jpg"
+    }
+},
+{
+    "model": "menu.category",
+    "pk": 2,
+    "fields": {
+        "name": "SHAKES & CO.",
+        "slug": "shakes-co",
+        "image": "brand_images/Meet_the_Munchies_Brands.All_your_favourite_flavours_one_platform._3.jpg"
+    }
+},
+{
+    "model": "menu.category",
+    "pk": 3,
+    "fields": {
+        "name": "A.M CLUB",
+        "slug": "am-club",
+        "image": "brand_images/Meet_the_Munchies_Brands.All_your_favourite_flavours_one_platform._4.jpg"
+    }
+},
+{
+    "model": "menu.category",
+    "pk": 4,
+    "fields": {
+        "name": "JUST WINGS",
+        "slug": "just-wings",
+        "image": "brand_images/Meet_the_Munchies_Brands.All_your_favourite_flavours_one_platform._5.jpg"
+    }
+},
+{
+    "model": "menu.category",
+    "pk": 5,
+    "fields": {
+        "name": "PASTA VILLE",
+        "slug": "pasta-ville",
+        "image": "brand_images/Meet_the_Munchies_Brands.All_your_favourite_flavours_one_platform._6.jpg"
+    }
+},
+{
+    "model": "menu.category",
+    "pk": 6,
+    "fields": {
+        "name": "HOUSE SPECIAL",
+        "slug": "house-special",
+        "image": "brand_images/Meet_the_Munchies_Brands.All_your_favourite_flavours_one_platform._7.jpg"
+    }
+},
+{
+    "model": "menu.subcategory",
+    "pk": 1,
+    "fields": {
+        "category": 2,
+        "name": "MILKSHAKES"
+    }
+},
+{
+    "model": "menu.subcategory",
+    "pk": 2,
+    "fields": {
+        "category": 2,
+        "name": "SODA RUSH"
+    }
+},
+{
+    "model": "menu.subcategory",
+    "pk": 3,
+    "fields": {
+        "category": 2,
+        "name": "COFFEE"
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 1,
+    "fields": {
+        "category": 1,
+        "subcategory": null,
+        "name": "BEEF BURGER",
+        "description": "",
+        "price": "7500.00",
+        "image": "menu_images/BURGER__f5ImqUF.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 2,
+    "fields": {
+        "category": 1,
+        "subcategory": null,
+        "name": "CHICKEN BURGER",
+        "description": "",
+        "price": "8500.00",
+        "image": "menu_images/chicken_burger.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 3,
+    "fields": {
+        "category": 1,
+        "subcategory": null,
+        "name": "BARBECUE CHICKEN BURGER",
+        "description": "",
+        "price": "8500.00",
+        "image": "menu_images/barbecue_chicken_burger.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 4,
+    "fields": {
+        "category": 1,
+        "subcategory": null,
+        "name": "ZINGER BURGER",
+        "description": "",
+        "price": "9000.00",
+        "image": "menu_images/zinger_burger.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 5,
+    "fields": {
+        "category": 1,
+        "subcategory": null,
+        "name": "BIG BANG BEEF BURGER",
+        "description": "",
+        "price": "11600.00",
+        "image": "menu_images/bigbang_beef_burger.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 6,
+    "fields": {
+        "category": 1,
+        "subcategory": null,
+        "name": "BIG BANG CHICKEN BURGER",
+        "description": "",
+        "price": "14500.00",
+        "image": "menu_images/barbecue_chicken_burger_kd4pTUS.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 7,
+    "fields": {
+        "category": 3,
+        "subcategory": null,
+        "name": "CHESSY EGG SANDWICH",
+        "description": "",
+        "price": "3700.00",
+        "image": "menu_images/SPECIAL_CLUCK_SANDWICH.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 8,
+    "fields": {
+        "category": 3,
+        "subcategory": null,
+        "name": "SPECIAL CLUCK SANDWICH",
+        "description": "",
+        "price": "4800.00",
+        "image": "menu_images/sandwich.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 9,
+    "fields": {
+        "category": 3,
+        "subcategory": null,
+        "name": "NAIJA BREAKFAST",
+        "description": "Boiled/Fried yam or Boiled/Fried Plantain served with egg sauce",
+        "price": "6500.00",
+        "image": "menu_images/naija_breakfast.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 10,
+    "fields": {
+        "category": 3,
+        "subcategory": null,
+        "name": "YANKEE BREAKFAST",
+        "description": "Pancakes, Scrambled Eggs, Baked Beans/Bacon with grilled sausages",
+        "price": "10000.00",
+        "image": "menu_images/yankee_breakfast.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 11,
+    "fields": {
+        "category": 5,
+        "subcategory": null,
+        "name": "JOLLOF SPAGHETTI",
+        "description": "",
+        "price": "5100.00",
+        "image": "menu_images/JOLLOF_SPAG.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 12,
+    "fields": {
+        "category": 5,
+        "subcategory": null,
+        "name": "SPICY BEEF PENNE",
+        "description": "",
+        "price": "7600.00",
+        "image": "menu_images/SPICY_BEEF_PENNE.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 13,
+    "fields": {
+        "category": 5,
+        "subcategory": null,
+        "name": "NATIVE SPAGHETTI",
+        "description": "",
+        "price": "7900.00",
+        "image": "menu_images/NATIVE_SPAGHETTI.jpeg",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 14,
+    "fields": {
+        "category": 5,
+        "subcategory": null,
+        "name": "JOLLOF-BEEF SPAGHETTI",
+        "description": "",
+        "price": "8000.00",
+        "image": "menu_images/JOLLOF-BEEF_SPAGHETTI.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 15,
+    "fields": {
+        "category": 4,
+        "subcategory": null,
+        "name": "SUYA WINGS",
+        "description": "",
+        "price": "0.00",
+        "image": "menu_images/Suya-Spiced-Chicken-Wings-2.png",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 16,
+    "fields": {
+        "category": 4,
+        "subcategory": null,
+        "name": "PEPPERED WINGS",
+        "description": "",
+        "price": "0.00",
+        "image": "menu_images/peppered_wings.jpeg",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 17,
+    "fields": {
+        "category": 4,
+        "subcategory": null,
+        "name": "SWEET CHILLI WINGS",
+        "description": "",
+        "price": "0.00",
+        "image": "menu_images/Sweet-Chili-Wings-1-683x1024.jpg",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 18,
+    "fields": {
+        "category": 4,
+        "subcategory": null,
+        "name": "BARBECUE WINGS",
+        "description": "",
+        "price": "0.00",
+        "image": "menu_images/barbecue_wings_1724381275536-1200x675.jpg",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 19,
+    "fields": {
+        "category": 6,
+        "subcategory": null,
+        "name": "M&S SMOKEY JOLLOF RICE",
+        "description": "",
+        "price": "5500.00",
+        "image": "menu_images/SMOKEY_JOLLOF_RICE.PNG",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 20,
+    "fields": {
+        "category": 6,
+        "subcategory": null,
+        "name": "FRANK NOODLES",
+        "description": "",
+        "price": "6000.00",
+        "image": "menu_images/NOODLES.PNG",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 21,
+    "fields": {
+        "category": 6,
+        "subcategory": null,
+        "name": "YAJI NOODLES",
+        "description": "",
+        "price": "7000.00",
+        "image": "menu_images/NOODLES_1.PNG",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 22,
+    "fields": {
+        "category": 6,
+        "subcategory": null,
+        "name": "CHEF'S SPECIAL NOODLES",
+        "description": "",
+        "price": "9500.00",
+        "image": "menu_images/NOODLES_3.jpg",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 23,
+    "fields": {
+        "category": 6,
+        "subcategory": null,
+        "name": "JAMBALAYA RICE",
+        "description": "",
+        "price": "9900.00",
+        "image": "menu_images/JAMBALAYA_RICE.PNG",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 24,
+    "fields": {
+        "category": 2,
+        "subcategory": 1,
+        "name": "VANILLA MILKSHAKE",
+        "description": "",
+        "price": "4800.00",
+        "image": "menu_images/VANILLA_MILKSHAKE.PNG",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 25,
+    "fields": {
+        "category": 2,
+        "subcategory": 1,
+        "name": "STRAWBERRY MILKSHAKE",
+        "description": "",
+        "price": "4800.00",
+        "image": "menu_images/strawberry-milkshake.PNG",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 26,
+    "fields": {
+        "category": 2,
+        "subcategory": 2,
+        "name": "LEMON SODA RUSH",
+        "description": "",
+        "price": "3000.00",
+        "image": "menu_images/LEMON_SODA_RUSH.PNG",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 27,
+    "fields": {
+        "category": 2,
+        "subcategory": 1,
+        "name": "CHOCOLATE MILKSHAKE",
+        "description": "",
+        "price": "5000.00",
+        "image": "menu_images/CHOCOLATE_MILKSHAKE.PNG",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 28,
+    "fields": {
+        "category": 2,
+        "subcategory": 1,
+        "name": "COFFEE N CREAM MILKSHAKE",
+        "description": "",
+        "price": "5500.00",
+        "image": "menu_images/COFFEE_N_CREAM_MILKSHAKE.PNG",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 29,
+    "fields": {
+        "category": 2,
+        "subcategory": 1,
+        "name": "COCONUT MILKSHAKE",
+        "description": "",
+        "price": "5500.00",
+        "image": "menu_images/COCONUT_MILKSHAKE.PNG",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitem",
+    "pk": 30,
+    "fields": {
+        "category": 2,
+        "subcategory": 1,
+        "name": "OREOS MILKSHAKE",
+        "description": "",
+        "price": "5800.00",
+        "image": "menu_images/OREOS_MILKSHAKE.PNG",
+        "is_available": true
+    }
+},
+{
+    "model": "menu.menuitemoption",
+    "pk": 1,
+    "fields": {
+        "menu_item": 18,
+        "name": "6pcs",
+        "price": "6500.00"
+    }
+},
+{
+    "model": "menu.menuitemoption",
+    "pk": 2,
+    "fields": {
+        "menu_item": 18,
+        "name": "12pcs",
+        "price": "11900.00"
+    }
+},
+{
+    "model": "menu.menuitemoption",
+    "pk": 3,
+    "fields": {
+        "menu_item": 17,
+        "name": "6pcs",
+        "price": "6300.00"
+    }
+},
+{
+    "model": "menu.menuitemoption",
+    "pk": 4,
+    "fields": {
+        "menu_item": 17,
+        "name": "12pcs",
+        "price": "11700.00"
+    }
+},
+{
+    "model": "menu.menuitemoption",
+    "pk": 5,
+    "fields": {
+        "menu_item": 16,
+        "name": "6pcs",
+        "price": "5800.00"
+    }
+},
+{
+    "model": "menu.menuitemoption",
+    "pk": 6,
+    "fields": {
+        "menu_item": 16,
+        "name": "12pcs",
+        "price": "10700.00"
+    }
+},
+{
+    "model": "menu.menuitemoption",
+    "pk": 7,
+    "fields": {
+        "menu_item": 15,
+        "name": "6pcs",
+        "price": "4900.00"
+    }
+},
+{
+    "model": "menu.menuitemoption",
+    "pk": 8,
+    "fields": {
+        "menu_item": 15,
+        "name": "12pcs",
+        "price": "9400.00"
+    }
+},
+{
+    "model": "menu.order",
+    "pk": 1,
+    "fields": {
+        "customer_name": "Magnus Evana-Obhazi Edu",
+        "phone_number": "09049381961",
+        "delivery_address": "90 ATEKONG DRIVE BESIDE GOMAYS EST",
+        "total_amount": "34000.00",
+        "status": "Delivered",
+        "created_at": "2026-03-23T12:44:21.346Z"
+    }
+},
+{
+    "model": "menu.order",
+    "pk": 2,
+    "fields": {
+        "customer_name": "Magnus Evana-Obhazi",
+        "phone_number": "09049381961",
+        "delivery_address": "90 ATEKONG DRIVE BESIDE GOMAYS EST",
+        "total_amount": "3000.00",
+        "status": "Pending",
+        "created_at": "2026-03-24T06:43:55.775Z"
+    }
+},
+{
+    "model": "menu.orderitem",
+    "pk": 1,
+    "fields": {
+        "order": 1,
+        "menu_item": 19,
+        "selected_option": null,
+        "quantity": 1,
+        "price_at_purchase": "5500.00"
+    }
+},
+{
+    "model": "menu.orderitem",
+    "pk": 2,
+    "fields": {
+        "order": 1,
+        "menu_item": 1,
+        "selected_option": null,
+        "quantity": 1,
+        "price_at_purchase": "7500.00"
+    }
+},
+{
+    "model": "menu.orderitem",
+    "pk": 3,
+    "fields": {
+        "order": 1,
+        "menu_item": 5,
+        "selected_option": null,
+        "quantity": 1,
+        "price_at_purchase": "11600.00"
+    }
+},
+{
+    "model": "menu.orderitem",
+    "pk": 4,
+    "fields": {
+        "order": 1,
+        "menu_item": 15,
+        "selected_option": 8,
+        "quantity": 1,
+        "price_at_purchase": "9400.00"
+    }
+},
+{
+    "model": "menu.orderitem",
+    "pk": 5,
+    "fields": {
+        "order": 2,
+        "menu_item": 26,
+        "selected_option": null,
+        "quantity": 1,
+        "price_at_purchase": "3000.00"
+    }
+},
+{
+    "model": "menu.brandasset",
+    "pk": 1,
+    "fields": {
+        "logo": "brand/Gemini_Generated_Image_tbgds7tbgds7tbgd_pT3dyOD.png",
+        "header_image": "brand/Gemini_Generated_Image_tbgds7tbgds7tbgd-removebg-preview.png",
+        "background_video": "brand/videos/88386ab0610545218d5014d51f69ed70.mp4"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2026-03-23T10:36:29.066Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "BURGER CENTRAL",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2026-03-23T10:44:48.984Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "1",
+        "object_repr": "BEEF BURGER",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2026-03-23T10:51:20.067Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "1",
+        "object_repr": "BEEF BURGER",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2026-03-23T10:51:33.145Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "1",
+        "object_repr": "BEEF BURGER",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2026-03-23T10:52:02.705Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "1",
+        "object_repr": "BEEF BURGER",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2026-03-23T10:52:20.592Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "1",
+        "object_repr": "BEEF BURGER",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2026-03-23T10:53:08.144Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "BURGER CENTRAL",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2026-03-23T10:53:33.373Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "BURGER CENTRAL",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2026-03-23T10:58:33.225Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "2",
+        "object_repr": "CHICKEN BURGER",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2026-03-23T10:59:11.737Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "3",
+        "object_repr": "BARBECUE CHICKEN BURGER",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2026-03-23T11:00:20.152Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "4",
+        "object_repr": "ZINGER BURGER",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2026-03-23T11:00:57.509Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "5",
+        "object_repr": "BIG BANG BEEF BURGER",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2026-03-23T11:01:28.487Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "6",
+        "object_repr": "BIG BANG CHICKEN BURGER",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2026-03-23T11:05:01.025Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "6",
+        "object_repr": "BIG BANG CHICKEN BURGER",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is available\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2026-03-23T11:05:35.910Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "6",
+        "object_repr": "BIG BANG CHICKEN BURGER",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is available\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2026-03-23T11:19:19.904Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "category"
+        ],
+        "object_id": "2",
+        "object_repr": "SHAKES & CO.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2026-03-23T11:21:57.346Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "A.M CLUB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2026-03-23T11:22:15.053Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "category"
+        ],
+        "object_id": "4",
+        "object_repr": "JUST WINGS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2026-03-23T11:22:36.290Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "category"
+        ],
+        "object_id": "5",
+        "object_repr": "PASTA VILLE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2026-03-23T11:23:01.034Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "category"
+        ],
+        "object_id": "6",
+        "object_repr": "HOUSE SPECIAL",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2026-03-23T11:24:40.750Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "brandasset"
+        ],
+        "object_id": "1",
+        "object_repr": "Brand Assets (Update this to change brand graphics)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2026-03-23T11:25:56.854Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "brandasset"
+        ],
+        "object_id": "1",
+        "object_repr": "Brand Assets (Update this to change brand graphics)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2026-03-23T11:47:49.977Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "7",
+        "object_repr": "CHESSY EGG SANDWICH",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2026-03-23T11:49:03.264Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "8",
+        "object_repr": "SPECIAL CLUCK SANDWICH",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2026-03-23T11:50:46.124Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "9",
+        "object_repr": "NAIJA BREAKFAST",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2026-03-23T11:56:00.967Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "9",
+        "object_repr": "NAIJA BREAKFAST",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2026-03-23T11:56:17.078Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "9",
+        "object_repr": "NAIJA BREAKFAST",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2026-03-23T11:58:59.001Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "10",
+        "object_repr": "YANKEE BREAKFAST",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2026-03-23T12:01:08.366Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "11",
+        "object_repr": "JOLLOF SPAGHETTI",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2026-03-23T12:05:35.491Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "12",
+        "object_repr": "SPICY BEEF PENNE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2026-03-23T12:08:23.671Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "13",
+        "object_repr": "NATIVE SPAGHETTI",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2026-03-23T12:08:36.122Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "12",
+        "object_repr": "SPICY BEEF PENNE",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2026-03-23T12:09:56.986Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "14",
+        "object_repr": "JOLLOF-BEEF SPAGHETTI",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2026-03-23T12:12:22.756Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "15",
+        "object_repr": "SUYA WINGS(6pcs)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2026-03-23T12:14:33.128Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "16",
+        "object_repr": "PEPPERED WINGS(6pcs)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2026-03-23T12:15:48.146Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "17",
+        "object_repr": "SWEET CHILLI WINGS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2026-03-23T12:17:29.820Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "18",
+        "object_repr": "BARBECUE WINGS(6pcs)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2026-03-23T12:17:42.432Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "17",
+        "object_repr": "SWEET CHILLI WINGS(6pcs)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2026-03-23T12:35:58.856Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "18",
+        "object_repr": "BARBECUE WINGS",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Price\"]}}, {\"added\": {\"name\": \"menu item option\", \"object\": \"BARBECUE WINGS - 6pcs\"}}, {\"added\": {\"name\": \"menu item option\", \"object\": \"BARBECUE WINGS - 12pcs\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2026-03-23T12:37:03.315Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "17",
+        "object_repr": "SWEET CHILLI WINGS",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Price\"]}}, {\"added\": {\"name\": \"menu item option\", \"object\": \"SWEET CHILLI WINGS - 6pcs\"}}, {\"added\": {\"name\": \"menu item option\", \"object\": \"SWEET CHILLI WINGS - 12pcs\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2026-03-23T12:37:36.686Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "16",
+        "object_repr": "PEPPERED WINGS",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Price\"]}}, {\"added\": {\"name\": \"menu item option\", \"object\": \"PEPPERED WINGS - 6pcs\"}}, {\"added\": {\"name\": \"menu item option\", \"object\": \"PEPPERED WINGS - 12pcs\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2026-03-23T12:38:10.259Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "15",
+        "object_repr": "SUYA WINGS",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Price\"]}}, {\"added\": {\"name\": \"menu item option\", \"object\": \"SUYA WINGS - 6pcs\"}}, {\"added\": {\"name\": \"menu item option\", \"object\": \"SUYA WINGS - 12pcs\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2026-03-23T12:42:39.070Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "19",
+        "object_repr": "M&S SMOKEY JOLLOF RICE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2026-03-23T14:13:25.073Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "order"
+        ],
+        "object_id": "1",
+        "object_repr": "Order #1 by Magnus Evana-Obhazi Edu",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2026-03-23T14:13:36.044Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "order"
+        ],
+        "object_id": "1",
+        "object_repr": "Order #1 by Magnus Evana-Obhazi Edu",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2026-03-23T14:16:06.445Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "20",
+        "object_repr": "FRANK NOODLES",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2026-03-23T14:19:26.802Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "21",
+        "object_repr": "YAJI NOODLES",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2026-03-23T14:19:42.329Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "21",
+        "object_repr": "YAJI NOODLES",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2026-03-23T14:21:21.854Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "22",
+        "object_repr": "CHEF'S SPECIAL NOODLES",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2026-03-23T14:22:40.018Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "23",
+        "object_repr": "JAMBALAYA RICE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2026-03-23T14:28:31.797Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "subcategory"
+        ],
+        "object_id": "1",
+        "object_repr": "SHAKES & CO. - MILKSHAKES",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2026-03-23T14:28:52.977Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "subcategory"
+        ],
+        "object_id": "2",
+        "object_repr": "SHAKES & CO. - SODA RUSH",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2026-03-23T14:29:05.192Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "subcategory"
+        ],
+        "object_id": "3",
+        "object_repr": "SHAKES & CO. - COFFEE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2026-03-23T14:32:06.752Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "24",
+        "object_repr": "VANILLA MILKSHAKE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2026-03-23T14:34:54.149Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "25",
+        "object_repr": "STRAWBERRY MILKSHAKE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2026-03-23T14:37:44.282Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "26",
+        "object_repr": "LEMON SODA RUSH",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2026-03-23T14:41:06.947Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "27",
+        "object_repr": "CHOCOLATE MILKSHAKE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2026-03-23T14:43:08.530Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "28",
+        "object_repr": "COFFEE N CREAM MILKSHAKE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2026-03-23T14:44:19.336Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "29",
+        "object_repr": "COCONUT MILKSHAKE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2026-03-23T14:45:37.442Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "menuitem"
+        ],
+        "object_id": "30",
+        "object_repr": "OREOS MILKSHAKE",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2026-03-23T14:57:04.164Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "brandasset"
+        ],
+        "object_id": "2",
+        "object_repr": "Brand Assets (Update this to change brand graphics)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2026-03-23T14:57:15.318Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "brandasset"
+        ],
+        "object_id": "1",
+        "object_repr": "Brand Assets (Update this to change brand graphics)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Header image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2026-03-23T14:58:41.167Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "brandasset"
+        ],
+        "object_id": "2",
+        "object_repr": "Brand Assets (Update this to change brand graphics)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2026-03-23T14:58:53.056Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "brandasset"
+        ],
+        "object_id": "1",
+        "object_repr": "Brand Assets (Update this to change brand graphics)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Header image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2026-03-23T15:28:38.800Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "brandasset"
+        ],
+        "object_id": "1",
+        "object_repr": "Brand Assets (Update this to change brand graphics)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2026-03-23T15:45:01.836Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "menu",
+            "brandasset"
+        ],
+        "object_id": "1",
+        "object_repr": "Brand Assets (Update this to change brand graphics)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Header image\"]}}]"
+    }
+}
+]
