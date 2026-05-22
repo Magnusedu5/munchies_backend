@@ -32,6 +32,7 @@ class MenuItem(models.Model):
     price = models.DecimalField(max_digits=8, decimal_places=2, default=0.00)
     image = models.ImageField(upload_to='menu_images/', blank=True, null=True)
     is_available = models.BooleanField(default=True)
+    recommended = models.BooleanField(default=False)
 
     def __str__(self):
         return self.name
