@@ -1,1 +1,1 @@
-web: python manage.py migrate --noinput && python manage.py collectstatic --noinput && gunicorn munchies_backend.wsgi
+web: python manage.py migrate --noinput && python manage.py collectstatic --noinput && gunicorn munchies_backend.wsgi --bind 0.0.0.0:$PORT --workers 2
